@@ -39,13 +39,17 @@ javac src/*.java
 java -cp src Main
 ```
 ## Example Test Files
--notes.txt
--setup.exe
--invoice.pdf.exe
+
+- notes.txt
+- setup.exe
+- invoice.pdf.exe
+
 ## Future Improvements
--GUI version
--Multiple file scanning
--Export report to file
+
+- GUI version
+- Multiple file scanning
+- Export report to file
+
 ## Author
 
 Personal Java practice project focused on real-world file analysis and basic security awareness.
