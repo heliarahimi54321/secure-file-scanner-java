@@ -38,14 +38,14 @@ src/
 javac src/*.java
 java -cp src Main
 ```
-Example Test Files
+## Example Test Files
 notes.txt
 setup.exe
 invoice.pdf.exe
-Future Improvements
+## Future Improvements
 GUI version
 Multiple file scanning
 Export report to file
-Author
+## Author
 
 Personal Java practice project focused on real-world file analysis and basic security awareness.
