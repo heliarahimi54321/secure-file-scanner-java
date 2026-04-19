@@ -37,9 +37,3 @@ src/
 ```bash
 javac src/*.java
 java -cp src Main
-
-
-Example Test Files
-notes.txt
-setup.exe
-invoice.pdf.exe
