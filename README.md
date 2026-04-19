@@ -1,25 +1,45 @@
 # Secure File Scanner Java
 
-A Java console application that scans files and evaluates basic security risks.
+A Java console application designed to scan files and evaluate basic security risks based on file type, extension, size, and hash value.
 
-## Features
+## Overview
 
-- File metadata analysis
-- SHA-256 hash generation
-- File extension detection
-- Double extension detection
-- Risk level evaluation
-- Clean scan report output
+This project was built to practice Java programming, object-oriented design, file handling, and basic security concepts.
 
-## Technologies
+## Key Features
+
+- Analyze file name, path, and size
+- Generate SHA-256 hash values
+- Detect suspicious file extensions
+- Detect double extensions (example: invoice.pdf.exe)
+- Evaluate file risk level (Low / Medium / High)
+- Display clean scan reports in console
+
+## Technologies Used
 
 - Java
-- OOP
+- Object-Oriented Programming (OOP)
 - File Handling
 - MessageDigest
+- Console Application
+
+## Project Structure
+
+src/
+- Main.java
+- FileAnalyzer.java
+- HashGenerator.java
+- RiskEvaluator.java
+- ReportPrinter.java
 
 ## How to Run
 
 ```bash
 javac src/*.java
 java -cp src Main
+
+
+Example Test Files
+notes.txt
+setup.exe
+invoice.pdf.exe
